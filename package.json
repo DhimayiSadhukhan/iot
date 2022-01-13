@@ -1,0 +1,21 @@
+{
+  "name": "iot-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mqtt": "^4.3.4",
+    "nodeplotlib": "^1.0.0",
+    "plotly.js-dist": "^2.8.3",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.2"
+  },
+  "type": "module",
+  "devDependencies": {},
+  "description": ""
+}

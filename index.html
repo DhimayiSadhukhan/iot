@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather Station</title>
+  </head>
+  <body>
+    <h1>Weather Station</h1>
+    <form action="/" method="post">
+      <h2>Temperature Sensor</h2>
+      <label for="min_temp">Min Temperature :</label>
+      <input type="number" name="min_temp" />
+      <label for="max_temp">Max Temperature :</label>
+      <input type="number" name="max_temp" />
+      <label for="temp_tol">Tolerance :</label>
+      <input type="number" name="temp_tol" step="0.1" />
+      <h2>Humidity Sensor</h2>
+      <label for="min_hum">Min Humidity :</label>
+      <input type="number" name="min_hum" />
+      <label for="max_hum">Max Humidity :</label>
+      <input type="number" name="max_hum" />
+      <label for="hum_tol">Tolerance :</label>
+      <input type="number" name="hum_tol" step="0.1" />
+      <h2>Rainfall Sensor</h2>
+      <p>No inputs needed</p>
+      <h2>Other details</h2>
+      <label for="freq">Enter frequency in milliseconds:</label>
+      <input type="number" name="freq" />
+      <br />
+      <label for="duration">Enter duration in milliseconds:</label>
+      <input type="number" name="duration" />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+    <div id="chart"></div>
+  </body>
+</html>
