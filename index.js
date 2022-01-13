@@ -79,9 +79,9 @@ app.post("/", function (req, res) {
     }
     function task(i) {
       setTimeout(function () {
-        console.log(temp_data[i]);
+        /*console.log(temp_data[i]);
         console.log(hum_data[i]);
-        console.log(rain_data[i]);
+        console.log(rain_data[i]);*/
         client.publish(
           "Temperature",
           "Temperature is " + temp_data[i].toString()
